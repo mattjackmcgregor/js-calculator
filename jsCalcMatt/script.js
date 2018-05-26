@@ -1,4 +1,4 @@
-
+/*
 let inputVal = [];
 let temp ="";
 //function for ac reset button

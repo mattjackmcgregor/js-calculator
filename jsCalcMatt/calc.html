@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>JS Calculator</title>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+  <script src="scriptshort.js"></script>
 </head>
 <body>
         <!-- make a calculator -->
@@ -21,18 +21,18 @@ make buttons -->
                   
       <button id="ac" value="ac" onclick="amount()">ac</button>
       <button id="ce" value="ce" onclick="backspace()"> ce</button>
-      <button id="/" value="/" onclick="divideBtn('/')">/</button>
-      <button id="X" value="*" onclick="multiplyBtn('*')">x</button>
+      <button id="/" value="/" onclick="opperatorBtn('/')">/</button>
+      <button id="X" value="*" onclick="opperatorBtn('*')">x</button>
       
       <button id="9" onclick="numberAdd(9)">9</button>
       <button id="8" onclick="numberAdd(8)">8</button>
       <button id="7" onclick="numberAdd(7)">7</button>
-      <button id="-" value="-" onclick="takeawayBtn('-')">-</button>
+      <button id="-" value="-" onclick="opperatorBtn('-')">-</button>
       
       <button id="6" onclick="numberAdd(6)">6</button>
       <button id="5" onclick="numberAdd(5)">5</button>
       <button id="4" onclick="numberAdd(4)">4</button>
-      <button id="+" value="+" onclick="additionBtn('+')">+</button>
+      <button id="+" value="+" onclick="opperatorBtn('+')">+</button>
       
       <button id="3" class="float" onclick="numberAdd(3)">3</button>
       <button id="2" class="float" onclick="numberAdd(2)">2</button>
@@ -41,7 +41,7 @@ make buttons -->
       
       
       <button id="0" class="space" onclick="numberAdd(0)">0</button>
-      <button id="." class="space2" value=".">.</button>
+      <button id="." class="space2" value="." onclick="numberAdd('.')">.</button>
       <button id="=" class="space1" value="=" onclick="calculate()">=</button>              
                   
     </div>            
